@@ -9,15 +9,16 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: gray;
 }
 
 button {
-  border: 1px solid rgb(105, 197, 255);
-  border-radius: 5px;
-  background-color: rgb(227, 248, 255);
-  color: rgb(105, 197, 255);
+  border: 5px solid rgb(23, 22, 26);
+  border-radius: 20px;
+  background-color: rgb(201, 200, 214);
+  color: rgb(60, 14, 223);
   text-align: center;
-  padding: 5px;
+  padding: 20px;
 }
 
 input[type="text"] {
@@ -42,3 +43,8 @@ input[type="text"] {
   text-decoration: line-through;
   color: grey;
 }
+
+
+
+
+
