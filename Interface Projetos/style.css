@@ -15,9 +15,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--color-dark1);
     color: var(--color-white);
+    height: 100vh;
 }
+body div{
+    height: 100vh;
+}
+
 .img_logo_header{
-    width: 45px;
+    width: 120px;
 }
 .header,
 .navigation_header{
@@ -82,4 +87,166 @@ body{
 @keyframes showSidebar {
     from {margin-left: -100vw;}
     to {margin-left: -10vw;}
+}
+.tela1{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+
+.titulocontador{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.contador{
+    text-align: justify;
+    font-size: 3vw;
+}
+
+.imagem{
+    padding: 5%;
+    height: 80vh;
+    width: auto;
+    -webkit-filter: drop-shadow(5px 10px 20px #222);
+    filter: drop-shadow(5px 15px 10px #222);
+    margin-top: 3vh;
+}
+
+.tela2{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+
+.imagem2{
+    padding: 5%;
+    height: 50vh;
+    width: auto;
+    -webkit-filter: drop-shadow(5px 10px 20px #222);
+    filter: drop-shadow(5px 15px 10px #222);
+}
+
+.titulotodolist{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textotodolist{
+    text-align: justify;
+    font-size: 1.5vw;
+
+.tela3{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+
+.titulosaldobancario{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textosaldobancario{
+    font-size: 1.5vw;
+}
+
+.tela4{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+
+.titulooperadores{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textooperadores{
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.tela5{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+
+.titulopolindromo{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textopolindromo{
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.tela6{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+.titulofuncoes{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textofuncoes{
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.tela7{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+.titulocalculeidade{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textocalculeidade{
+    text-align: justify;
+    font-size: 1.5vw;
+}
+.tela8{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+.titulocalculadora{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textocalculadora{
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.tela9{
+    display: flex;
+    flex-direction: row;
+    max-height: 100vh;
+    justify-content: space-between;
+}
+
+.titulocontato{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.icones{
+
 }
